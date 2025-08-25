@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graduate Admission Chance Predictor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Graduate Admission Chance Predictor</h1>
+            <p class="subtitle">YBI 1-Month Internship Project</p>
+        </header>
+        
+        <div class="content">
+            <div class="input-section">
+                <h2>Enter Your Details</h2>
+                <div class="form-group">
+                    <label for="gre">GRE Score (290-340)</label>
+                    <input type="number" id="gre" min="290" max="340" value="320">
+                    <input type="range" id="gre-range" min="290" max="340" value="320">
+                    <div class="range-values">
+                        <span>290</span>
+                        <span>340</span>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="toefl">TOEFL Score (92-120)</label>
+                    <input type="number" id="toefl" min="92" max="120" value="105">
+                    <input type="range" id="toefl-range" min="92" max="120" value="105">
+                    <div class="range-values">
+                        <span>92</span>
+                        <span>120</span>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="rating">University Rating (1-5)</label>
+                    <select id="rating">
+                        <option value="1">1 - Below Average</option>
+                        <option value="2">2 - Average</option>
+                        <option value="3" selected>3 - Good</option>
+                        <option value="4">4 - Very Good</option>
+                        <option value="5">5 - Excellent</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="sop">Statement of Purpose Strength (1-5)</label>
+                    <select id="sop">
+                        <option value="1">1 - Weak</option>
+                        <option value="2">2 - Average</option>
+                        <option value="3">3 - Good</option>
+                        <option value="4" selected>4 - Strong</option>
+                        <option value="5">5 - Excellent</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="lor">Letter of Recommendation Strength (1-5)</label>
+                    <select id="lor">
+                        <option value="1">1 - Weak</option>
+                        <option value="2">2 - Average</option>
+                        <option value="3" selected>3 - Good</option>
+                        <option value="4">4 - Strong</option>
+                        <option value="5">5 - Excellent</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="cgpa">Undergraduate CGPA (6.8-9.92)</label>
+                    <input type="number" id="cgpa" min="6.8" max="9.92" step="0.01" value="8.5">
+                    <input type="range" id="cgpa-range" min="6.8" max="9.92" step="0.01" value="8.5">
+                    <div class="range-values">
+                        <span>6.8</span>
+                        <span>9.92</span>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="research">Research Experience</label>
+                    <select id="research">
+                        <option value="0">No Research Experience</option>
+                        <option value="1" selected>Has Research Experience</option>
+                    </select>
+                </div>
+                
+                <button id="predict-btn">Predict My Admission Chance</button>
+            </div>
+            
+            <div class="output-section">
+                <h2>Your Admission Prediction</h2>
+                <div class="result-box">
+                    <p class="chance-label">Chance of Admission</p>
+                    <div class="chance-value" id="chance-value">0%</div>
+                    <div class="probability-bar">
+                        <div class="probability-fill" id="probability-fill" style="width: 0%;"></div>
+                    </div>
+                    <p id="admission-message">Enter your details to get prediction</p>
+                </div>
+                
+                <div class="model-info">
+                    <h3>Prediction Algorithm Info</h3>
+                    <p><strong>Method:</strong> Multi-parameter weighted scoring</p>
+                    <p><strong>Factors:</strong> GRE, TOEFL, University Rating, SOP, LOR, CGPA, Research</p>
+                    <p><strong>Accuracy:</strong> Based on historical admission patterns</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>YBI 1-Month Internship Project | Graduate Admission Chance Predictor</p>
+        <p>© 2023 | AI/ML Based Prediction System</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
