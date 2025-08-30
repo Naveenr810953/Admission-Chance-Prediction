@@ -9,7 +9,7 @@ import joblib
 # Load dataset directly from an online source (YBI Foundation GitHub)
 admission_data = pd.read_csv('https://github.com/ybifoundation/Dataset/raw/main/Admission%20Chance.csv')
 
-# Clean column names by removing leading/trailing whitespaces
+# Clean column names by removing leading/trailing whitespaces   
 admission_data.columns = admission_data.columns.str.strip()
 print("Cleaned column names:", admission_data.columns.tolist())
 
