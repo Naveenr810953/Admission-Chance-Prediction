@@ -9,7 +9,7 @@ A machine learning-powered web application that predicts your chances of admissi
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ---
-
+  
 ## 📊 Features 
 
 - **Academic Parameter Analysis** – Input your GRE, TOEFL, CGPA, and other academic metrics
