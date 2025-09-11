@@ -1,4 +1,4 @@
- # 🎓 Graduate Admission Chance Predictor
+  # 🎓 Graduate Admission Chance Predictor
 
 A machine learning-powered web application that predicts your chances of admission to graduate programs based on academic profile parameters. Built with **HTML**, **CSS**, and **JavaScript**.
    
