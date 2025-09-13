@@ -1,4 +1,4 @@
-// Initialize when the page loads
+   // Initialize when the page loads
 document.addEventListener('DOMContentLoaded', function() {
     // Set up event listeners for input synchronization
     setupEventListeners();
