@@ -11,7 +11,7 @@ A machine learning-powered web application that predicts your chances of admissi
 ---
   
 ## 📊 Features 
-
+                  
 - **Academic Parameter Analysis** – Input your GRE, TOEFL, CGPA, and other academic metrics
 - **Real-time Prediction** – Instant calculation of admission chances as you adjust inputs
 - **Visual Feedback** – Color-coded results with probability bar visualization
