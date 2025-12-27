@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Calculate initial chance with default values
     calculateChance();
-});
+});    
 // creating setup,  predict and prevent the admissions   
 // Set up all event listeners
 function setupEventListeners() {
