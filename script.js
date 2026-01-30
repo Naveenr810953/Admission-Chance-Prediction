@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     calculateChance();
 });    
 // creating setup,  predict and prevent the admissions   
-// Set up all event listeners
+// Set up all event listeners   
 function setupEventListeners() {
     // Sync range sliders with number inputs
     document.getElementById('gre-range').addEventListener('input', function() {
