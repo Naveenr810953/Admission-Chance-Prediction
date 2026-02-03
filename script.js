@@ -93,7 +93,7 @@ function calculateChance() {
     
     return chance;
 }
-
+   
 // Update the UI with the calculated results
 function updateResults(chance) {
     const chancePercent = chance.toFixed(1);
