@@ -12,7 +12,7 @@ function setupEventListeners() {
     // Sync range sliders with number inputs
     document.getElementById('gre-range').addEventListener('input', function() {
         document.getElementById('gre').value = this.value;
-        calculateChance();
+        calculateChance();  
     });
     
     document.getElementById('gre').addEventListener('input', function() {
