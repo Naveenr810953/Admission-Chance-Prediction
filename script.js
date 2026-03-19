@@ -14,7 +14,7 @@ function setupEventListeners() {
         document.getElementById('gre').value = this.value;
         calculateChance();  
     });
-    
+      
     document.getElementById('gre').addEventListener('input', function() {
         document.getElementById('gre-range').value = this.value;
         calculateChance();
