@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Set up event listeners for input synchronization
     setupEventListeners();
-    
+        
     // Calculate initial chance with default values
     calculateChance();
 });    
