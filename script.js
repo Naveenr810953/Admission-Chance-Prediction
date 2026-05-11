@@ -39,7 +39,7 @@ function setupEventListeners() {
         document.getElementById('cgpa-range').value = this.value;
         calculateChance();
     });
-    
+      
     // Add event listeners to all inputs
     const inputs = document.querySelectorAll('input, select');
     inputs.forEach(input => {
