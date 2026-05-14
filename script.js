@@ -28,7 +28,7 @@ function setupEventListeners() {
     document.getElementById('toefl').addEventListener('input', function() {
         document.getElementById('toefl-range').value = this.value;
         calculateChance();
-    });
+    }); 
     
     document.getElementById('cgpa-range').addEventListener('input', function() {
         document.getElementById('cgpa').value = this.value;
