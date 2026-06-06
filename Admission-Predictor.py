@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error
 import joblib       
          
-# Step 2: Load and explore the dataset
+# Step 2: Load and explore the dataset 
 # Load dataset directly from an online source (YBI Foundation GitHub)
 admission_data = pd.read_csv('https://github.com/ybifoundation/Dataset/raw/main/Admission%20Chance.csv')
 
