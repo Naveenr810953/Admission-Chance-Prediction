@@ -1,11 +1,11 @@
    // Initialize when the page loads
 document.addEventListener('DOMContentLoaded', function() {
     // Set up event listeners for input synchronization
-    setupEventListeners();
+    setupEventListeners(); 
         
     // Calculate initial chance with default values
     calculateChance();
-});    
+});     
 // creating setup,  predict and prevent the admissions   
 // Set up all event listeners            
 function setupEventListeners() {          
